@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#counter{
+    background-color: #566573;
+    height: 100vh;
+}
+#counter .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#counter button,input{
+padding: 10px;
+text-align: center;
+}
+#counter button{
+    cursor: pointer;
+}
+
+/* mobileNav */
+#mobileNav{
+    height: 100vh;
+    background-color: #A3E4D7;
+    position: relative;
+}
+#mobileNav .btn{
+    width: 40px;
+    height: 40px;
+    background-color: #A93226;
+    border-radius: 20%;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+#mobileNav .bar{
+    height: 100vh;
+    width: 0;
+    background-color: #F2F3F4;
+    transition: 0.5s;
+}
+#mobileNav .bar.active{
+    width: 400px;
+}
+
+
+/* RANGE */
+#range{
+    height: 100vh;
+    background-color: #FAD7A0 ;
+}
+#range .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    color: #7B241C ;
+}
